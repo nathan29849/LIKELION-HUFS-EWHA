@@ -32,7 +32,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: GitHub Actions
-          DISCORD_AVARTAR: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb3syN7lf7kFs8Z1YIAwWg1AVwNtIn0Ozzkw&usqp=CAU.png
+          DISCORD_AVARTAR: https://images.velog.io/images/nathan29849/post/344b519b-f338-45a9-8f24-75fe8f6253f5/image.png
         uses: Ilshidur/action-discord@master
         with:
           args: "DOUGH GitHub Actions!: {{GITHUB_EVENT_NAME}}"
