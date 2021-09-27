@@ -31,4 +31,4 @@ async def on_message(message):
 async def on_reaction_add(reaction, user):
     await user.send("네가.. 이모티콘을 눌렀니..?")
 
-bot.run("ODkxOTk4MjY0Nzg0NzE5OTAz.YVGgHg.ExUK8mOMcVzcE8lCiMQwDPJO-oY")
+bot.run("토큰정보")
