@@ -32,7 +32,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: GitHub Actions
-          DISCORD_AVARTAR: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt0KUWUT002JiwjqTzAr19wqgquB8ujPi5fw&usqp=CAU
+          DISCORD_AVARTAR: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb3syN7lf7kFs8Z1YIAwWg1AVwNtIn0Ozzkw&usqp=CAU.img
         uses: Ilshidur/action-discord@master
         with:
           args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
